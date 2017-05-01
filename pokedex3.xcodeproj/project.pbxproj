@@ -14,6 +14,7 @@
 		AF8A8FC41EB728D400EFA8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8A8FC21EB728D400EFA8FD /* LaunchScreen.storyboard */; };
 		AF8A8FCF1EB728D400EFA8FD /* pokedex3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8A8FCE1EB728D400EFA8FD /* pokedex3Tests.swift */; };
 		AF8A8FDA1EB728D400EFA8FD /* pokedex3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8A8FD91EB728D400EFA8FD /* pokedex3UITests.swift */; };
+		AF8A8FEC1EB72AFF00EFA8FD /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = AF8A8FEB1EB72AFF00EFA8FD /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF8A8FD51EB728D400EFA8FD /* pokedex3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedex3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8A8FD91EB728D400EFA8FD /* pokedex3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex3UITests.swift; sourceTree = "<group>"; };
 		AF8A8FDB1EB728D400EFA8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8A8FEB1EB72AFF00EFA8FD /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,10 @@
 		AF8A8FB81EB728D400EFA8FD /* pokedex3 */ = {
 			isa = PBXGroup;
 			children = (
+				AF8A8FEA1EB72AEA00EFA8FD /* Files */,
+				AF8A8FE91EB72AE600EFA8FD /* Model */,
+				AF8A8FE81EB72AE100EFA8FD /* View */,
+				AF8A8FE71EB72AD900EFA8FD /* Controller */,
 				AF8A8FB91EB728D400EFA8FD /* AppDelegate.swift */,
 				AF8A8FBB1EB728D400EFA8FD /* ViewController.swift */,
 				AF8A8FBD1EB728D400EFA8FD /* Main.storyboard */,
@@ -123,6 +129,35 @@
 				AF8A8FDB1EB728D400EFA8FD /* Info.plist */,
 			);
 			path = pokedex3UITests;
+			sourceTree = "<group>";
+		};
+		AF8A8FE71EB72AD900EFA8FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AF8A8FE81EB72AE100EFA8FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF8A8FE91EB72AE600EFA8FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF8A8FEA1EB72AEA00EFA8FD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A8FEB1EB72AFF00EFA8FD /* pokemon.csv */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +269,7 @@
 			files = (
 				AF8A8FC41EB728D400EFA8FD /* LaunchScreen.storyboard in Resources */,
 				AF8A8FC11EB728D400EFA8FD /* Assets.xcassets in Resources */,
+				AF8A8FEC1EB72AFF00EFA8FD /* pokemon.csv in Resources */,
 				AF8A8FBF1EB728D400EFA8FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
